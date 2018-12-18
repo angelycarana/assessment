@@ -1,0 +1,135 @@
+body {
+	background-color: white;
+	text-align: center;
+	font-family: Avenir Lt Std;
+}
+
+.main-header{
+	padding:200px;
+	background-image: url(../images/desktop.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	grid-gap: 0px;
+	opacity: 0.7;
+	z-index: 1;
+
+
+
+
+}
+
+.slidetitle{
+	position: absolute;
+	top: 20%;
+	right:25%;
+	transform: translate(-20%,-25%,);
+
+}
+
+.slidetitle h1{
+	font-size: 50px;
+	padding: 5px 15px;
+	text-align: center;
+}
+
+.slidetitle h2{
+	padding: 5px 15px;
+	text-align: center;
+}
+.container {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-row: 1fr 1fr 1fr;
+	padding: 100px;
+	margin-top: 10px;
+	background-color: #f3b5b5;	
+}
+
+.profile h1{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-65%,-50%);
+}
+
+.background{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-row: 1fr 1fr 1fr;
+	padding: 100px;
+	margin-top: 10px;
+	background-color: #aeadad;	
+}
+
+.education {
+	position: absolute;
+	top: 130%;
+	left: 72%;
+	transform: translate(-130%,-72%);
+}
+
+.highlights{
+	background-image: url(../images/building.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-row: 1fr 1fr 1fr;
+	padding: 100px;
+	margin-top: 10px;
+	opacity: 0.8;
+	z-index: 1;
+	margin-bottom: 10px;
+}
+
+.character h1{
+	position: absolute;
+	top: 253%;
+	left: 83%;
+	transform: translate(-253%,-83%);
+
+}
+
+.people{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-row: 1fr 1fr 1fr;
+	padding: 100px;`
+	margin-top: 10px;
+	background-color: #aeadad;
+	margin-bottom: 10px;
+
+}
+
+
+.objective{
+	padding: 100px;
+	background-image: url(../images/schedule.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.contact{
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	grid-row: 1fr 1fr;
+	padding: 2px;
+	background-color: #f3b5b5;	
+}
+
+.footer{
+	padding: 1px;
+	background-color: white;	
+}
+
+
